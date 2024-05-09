@@ -1,0 +1,15 @@
+#include"../h_files/header.h"
+#include"../h_files/declaration.h"
+#include"../h_files/structure.h"
+
+void* (void* arg){
+#ifdef DEBUG
+	cout<<"begin"<<__FILE__<<" "<<__func__<<endl;
+#endif
+	
+#ifdef DEBUG
+	cout<<"end"<<__FILE__<<" "<<__func__<<endl;
+#endif
+	return 0;
+
+}
